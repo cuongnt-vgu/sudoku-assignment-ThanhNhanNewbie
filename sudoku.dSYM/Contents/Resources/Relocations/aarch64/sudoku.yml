@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     sudoku
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _find_hidden_single_values, symObjAddr: 0x0, symBinAddr: 0x100003AD4, symSize: 0x68C }
+  - { offsetInCU: 0x2B, offset: 0x2B, size: 0x8, addend: 0x0, symName: _find_hidden_single_values, symObjAddr: 0x0, symBinAddr: 0x100003AD4, symSize: 0x68C }
+  - { offsetInCU: 0xF8, offset: 0xF8, size: 0x8, addend: 0x0, symName: _is_processed, symObjAddr: 0x68C, symBinAddr: 0x100004160, symSize: 0x118 }
+  - { offsetInCU: 0x158, offset: 0x158, size: 0x8, addend: 0x0, symName: _find_hidden_single, symObjAddr: 0x7A4, symBinAddr: 0x100004278, symSize: 0xAAC }
+  - { offsetInCU: 0x231, offset: 0x231, size: 0x8, addend: 0x0, symName: _hidden_singles, symObjAddr: 0x1250, symBinAddr: 0x100004D24, symSize: 0x774 }
+  - { offsetInCU: 0x1E, offset: 0x4C4, size: 0x8, addend: 0x0, symName: _is_hidden_pair, symObjAddr: 0x0, symBinAddr: 0x1000054B0, symSize: 0x134 }
+  - { offsetInCU: 0x2B, offset: 0x4D1, size: 0x8, addend: 0x0, symName: _is_hidden_pair, symObjAddr: 0x0, symBinAddr: 0x1000054B0, symSize: 0x134 }
+  - { offsetInCU: 0x99, offset: 0x53F, size: 0x8, addend: 0x0, symName: _is_in_cell, symObjAddr: 0x134, symBinAddr: 0x1000055E4, symSize: 0x5C }
+  - { offsetInCU: 0xDD, offset: 0x583, size: 0x8, addend: 0x0, symName: _find_hidden_double_values, symObjAddr: 0x190, symBinAddr: 0x100005640, symSize: 0x720 }
+  - { offsetInCU: 0x1C7, offset: 0x66D, size: 0x8, addend: 0x0, symName: _find_hidden_double, symObjAddr: 0x8B0, symBinAddr: 0x100005D60, symSize: 0x918 }
+  - { offsetInCU: 0x282, offset: 0x728, size: 0x8, addend: 0x0, symName: _hidden_pairs, symObjAddr: 0x11C8, symBinAddr: 0x100006678, symSize: 0x8B8 }
+  - { offsetInCU: 0x1E, offset: 0x9B1, size: 0x8, addend: 0x0, symName: _hidden_triples, symObjAddr: 0x0, symBinAddr: 0x100006F48, symSize: 0x14 }
+  - { offsetInCU: 0x2B, offset: 0x9BE, size: 0x8, addend: 0x0, symName: _hidden_triples, symObjAddr: 0x0, symBinAddr: 0x100006F48, symSize: 0x14 }
+  - { offsetInCU: 0x1E, offset: 0xB27, size: 0x8, addend: 0x0, symName: _naked_pairs, symObjAddr: 0x0, symBinAddr: 0x100006F74, symSize: 0x71C }
+  - { offsetInCU: 0x32, offset: 0xB3B, size: 0x8, addend: 0x0, symName: _naked_pairs, symObjAddr: 0x0, symBinAddr: 0x100006F74, symSize: 0x71C }
+  - { offsetInCU: 0x122, offset: 0xC2B, size: 0x8, addend: 0x0, symName: _naked_pairable, symObjAddr: 0x71C, symBinAddr: 0x100007690, symSize: 0x928 }
+  - { offsetInCU: 0x28A, offset: 0xD93, size: 0x8, addend: 0x0, symName: _insert_naked_pair, symObjAddr: 0x1044, symBinAddr: 0x100007FB8, symSize: 0x360 }
+  - { offsetInCU: 0x302, offset: 0xE0B, size: 0x8, addend: 0x0, symName: _transverse_naked_pair, symObjAddr: 0x13A4, symBinAddr: 0x100008318, symSize: 0xA0 }
+  - { offsetInCU: 0x342, offset: 0xE4B, size: 0x8, addend: 0x0, symName: _free_naked_pair, symObjAddr: 0x1444, symBinAddr: 0x1000083B8, symSize: 0xA0 }
+  - { offsetInCU: 0x382, offset: 0xE8B, size: 0x8, addend: 0x0, symName: _remove_candidate_naked_pair, symObjAddr: 0x14E4, symBinAddr: 0x100008458, symSize: 0x1EB0 }
+  - { offsetInCU: 0x1E, offset: 0x118C, size: 0x8, addend: 0x0, symName: _naked_triples, symObjAddr: 0x0, symBinAddr: 0x10000A320, symSize: 0x14 }
+  - { offsetInCU: 0x2B, offset: 0x1199, size: 0x8, addend: 0x0, symName: _naked_triples, symObjAddr: 0x0, symBinAddr: 0x10000A320, symSize: 0x14 }
+  - { offsetInCU: 0x1E, offset: 0x1302, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000B070, symSize: 0x470 }
+  - { offsetInCU: 0x33, offset: 0x1317, size: 0x8, addend: 0x0, symName: _.str, symObjAddr: 0x520, symBinAddr: 0x10000B8A0, symSize: 0x0 }
+  - { offsetInCU: 0x56, offset: 0x133A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000B070, symSize: 0x470 }
+...
